@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: lightgray;
+    color: darkgray;
+}
+
+
+
+
+header {
+    background: linear-gradient(135deg, mediumturquoise, tomato);
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: gold;
+}
+
+.donation {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.donation h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: tomato;
+}
+
+.donation p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    opacity: 0.8;
+    color: #333;
+}
+
+.donation-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.donation-form label {
+    font-size: 20px;
+    font-weight: 700;
+    color:#333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.donation-form input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.donation-form button {
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.donation-form button:hover {
+    background-color: orangered;
+}
+
+.donation-info {
+    margin-top: 40px;
+}
+
+.donation-info h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: tomato;
+}
+
+.donation-info p {
+    font-size: 18px;
+    color:#333;
+    margin-bottom: 20px;
+}
+
+

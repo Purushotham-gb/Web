@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: lightgray;
+    color: darkgray;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(135deg, mediumturquoise, tomato);
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header nav ul li a:hover {
+    color: gold;
+}
+
+.mainimage {
+    background-image: url('pics/main.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 20px;
+    color: white;
+    height: 100vh;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.mainimage h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.mainimage p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-donate {
+    background: linear-gradient(135deg, tomato, mediumturquoise);
+    padding: 20px 60px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 0 10px 20px ;
+}
+
+.btn-donate:hover {
+    background: linear-gradient(135deg, mediumturquoise, tomato);
+    box-shadow: 0 15px 25px ;
+}
+
+.middle {
+    background: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.mm-heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: tomato;
+}
+
+.mm-subheading {
+    font-size: 20px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mm-container {
+    width: 32%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mm-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.mm-image:hover{
+    box-shadow: 20px 20px 30px;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.donation {
+    background-color: lightgray;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.donation h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: darkgray;
+}
+
+.donation p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: dimgray;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.contact {
+    background: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contact textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contact button {
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: red;
+}
+
+footer {
+    background-color: darkslategray;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
